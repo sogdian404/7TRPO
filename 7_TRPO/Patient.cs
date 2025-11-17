@@ -1,27 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Text.Json.Serialization;
 using System.IO;
 using System.Text.Json;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace _7_TRPO
 {
-    internal class Patient
+    public class Patient : INotifyPropertyChanged
     {
+        private ObservableCollection<Appointment> appointmentStories = new();
+        public ObservableCollection<Appointment> AppointmentStories
+        {
+            get => appointmentStories;
+            set
+            {
+                appointmentStories = value; OnPropertyChanged();
+            }
+        }
+
+        private string _phoneNumber = "";
+
+        public string PhoneNumber
+        {
+            get => _phoneNumber;
+            set { _phoneNumber = value; OnPropertyChanged(); }
+        }
+
         private int _id = 0;
 
         public int Id
         {
             get => _id;
-            set
-            {
-                _id = value;
-                OnPropertyChanged();
-            }
+            set { _id = value; OnPropertyChanged(); }
         }
 
         private string _name = "";
@@ -29,12 +40,7 @@ namespace _7_TRPO
         public string Name
         {
             get => _name;
-            set
-            {
-                _name = value;
-                OnPropertyChanged();
-
-            }
+            set { _name = value; OnPropertyChanged(); }
         }
 
         private string _lastName = "";
@@ -42,12 +48,7 @@ namespace _7_TRPO
         public string LastName
         {
             get => _lastName;
-            set
-            {
-                _lastName = value;
-                OnPropertyChanged();
-
-            }
+            set { _lastName = value; OnPropertyChanged(); }
         }
 
         private string _middleName = "";
@@ -55,12 +56,7 @@ namespace _7_TRPO
         public string MiddleName
         {
             get => _middleName;
-            set
-            {
-                _middleName = value;
-                OnPropertyChanged();
-
-            }
+            set { _middleName = value; OnPropertyChanged(); }
         }
 
         private string _diagnosis = "";
@@ -72,7 +68,6 @@ namespace _7_TRPO
             {
                 _diagnosis = value;
                 OnPropertyChanged();
-
             }
         }
 
@@ -85,10 +80,9 @@ namespace _7_TRPO
             {
                 _recomendation = value;
                 OnPropertyChanged();
-
             }
         }
-        private DateTime _birthgday ;
+        private DateTime _birthgday;
         public DateTime Birthday
         {
             get => _birthgday;
@@ -96,18 +90,16 @@ namespace _7_TRPO
             {
                 _birthgday = value;
                 OnPropertyChanged();
-
             }
         }
         private DateTime _lastVisit;
         public DateTime LastVisit
         {
-            get =>_lastVisit;
+            get => AppointmentStories[AppointmentStories.Count - 1].date;
             set
             {
                 _lastVisit = value;
                 OnPropertyChanged();
-
             }
         }
         private int _lastDoctor = 0;
@@ -139,7 +131,9 @@ namespace _7_TRPO
                 return "не указан";
             }
         }
+
         public event PropertyChangedEventHandler PropertyChanged;
+
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

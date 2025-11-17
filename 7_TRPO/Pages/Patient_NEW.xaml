@@ -1,0 +1,27 @@
+﻿<Page x:Class="_7_TRPO.Pages.Patient_NEW"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_7_TRPO.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="295" d:DesignWidth="250"
+      Title="Создать пациента">
+
+    <Grid>
+        <StackPanel Margin="5" x:Name="P_RegisterForm">
+            <TextBlock Text="Фамилия:"/>
+            <TextBox Text="{Binding LastName}"/>
+            <TextBlock Text="Имя:"/>
+            <TextBox Text="{Binding Name}"/>
+            <TextBlock Text="Отчество:"/>
+            <TextBox Text="{Binding MiddleName}"/>
+            <TextBlock Text="Телефон:"/>
+            <TextBox Text="{Binding PhoneNumber}"/>
+            <TextBlock Text="Дата рождения:"/>
+            <DatePicker SelectedDate="{Binding Birthday}" x:Name="P_BD"></DatePicker>
+            <Button Content="Зарегистрировать" Margin="5" Click="NewPatient"/>
+            <Button Content="Отмена" Margin="5" Click="Cancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

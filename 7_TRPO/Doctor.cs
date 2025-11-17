@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 
 namespace _7_TRPO
 {
-    internal class Doctor
+    public class Doctor
     {
+
         private int _id = 0;
         public int Id
         {
@@ -75,6 +76,7 @@ namespace _7_TRPO
                 _repeatPassword = value;
             }
         }
+
 
     }
 }

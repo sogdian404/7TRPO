@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_7_TRPO"
         mc:Ignorable="d"
-        Title="Больничка" Height="700" Width="850">
-    <Grid Margin="10">
+        Title="Больничка" Height="700" Width="900">
+    <!--<Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="250"/>
@@ -132,6 +132,8 @@
                     <TextBlock Text="Дата рождения:"/>
                     <DatePicker  SelectedDate="{Binding Birthday}" x:Name="P_BD2"></DatePicker>
                     <Button Content="Изменить" Margin="5" Click="ChangePatient"/>
+                    <Button Content="Сбросить" Margin="5" Click="ResetChanges"/>
+
                 </StackPanel>
             </Border>
         </DockPanel>
@@ -146,5 +148,8 @@
 
             </WrapPanel>
         </Border>
+    </Grid>-->
+    <Grid>
+        <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
