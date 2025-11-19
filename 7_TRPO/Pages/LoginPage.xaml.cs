@@ -49,6 +49,10 @@ namespace _7_TRPO.Pages
                     doctorsigned = true;
                     d_current.datacontext = currentdoctor;*/
                 }
+                else
+                {
+                    MessageBox.Show("Пароль неверный!");
+                }
             }
         }
 

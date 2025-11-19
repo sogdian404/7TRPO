@@ -16,16 +16,19 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" Grid.Row="0">
-            <Button Margin="5" Padding="5" Click="CreatePatient_Click">Создать пациента</Button>
-            <Button Margin="5" Padding="5" Click="StartVisit_Click">Начать прием</Button>
-            <Button Margin="5" Padding="5" Click="EditInfo_Click">Изменить информацию</Button>
+        <StackPanel Style="{StaticResource SP_H}" Grid.Row="0">
+            <Button Style="{StaticResource AddBtn}" Click="CreatePatient_Click"></Button>
+            <Button Style="{StaticResource Standart}" Click="StartVisit_Click">Начать прием</Button>
+            <Button Style="{StaticResource Standart}" Click="EditInfo_Click">Изменить информацию</Button>
+            <Button Style="{StaticResource DelBtn}" Click="DeletePatient"></Button>
+
         </StackPanel>
+        
         <ListView Grid.Row="1" ItemsSource="{Binding P_List, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding SelectedPatient, UpdateSourceTrigger=PropertyChanged}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
-                            <StackPanel Margin="5" Orientation="Vertical">
+                        <StackPanel Style="{StaticResource SP}">
                                 <TextBlock Text="{Binding Id}"/>
                                 <TextBlock Text="{Binding LastName}"/>
                                 <TextBlock Text="{Binding Name}"/>
@@ -35,17 +38,17 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-        <WrapPanel Margin="5" Grid.Column="1" Grid.RowSpan="2" Orientation="Vertical" x:Name="D_current">
-            <TextBlock Padding="1" Text="Идентификатор:"/>
-            <TextBlock Padding="1" Text="{Binding Id}"/>
-            <TextBlock Padding="1" Text="Фамилия:"/>
-            <TextBlock Padding="1" Text="{Binding LastName}"/>
-            <TextBlock Padding="1" Text="Имя:"/>
-            <TextBlock Padding="1" Text="{Binding Name}"/>
-            <TextBlock Padding="1" Text="Отчество:"/>
-            <TextBlock Padding="1" Text="{Binding MiddleName}"/>
-            <TextBlock Padding="1" Text="Специальность:"/>
-            <TextBlock Padding="1" Text="{Binding Specialisation}"/>
+        <WrapPanel Style="{StaticResource WP}"  Grid.Column="1" Grid.RowSpan="2" x:Name="D_current">
+            <TextBlock  Text="Идентификатор:"/>
+            <TextBlock  Text="{Binding Id}"/>
+            <TextBlock  Text="Фамилия:"/>
+            <TextBlock  Text="{Binding LastName}"/>
+            <TextBlock  Text="Имя:"/>
+            <TextBlock  Text="{Binding Name}"/>
+            <TextBlock  Text="Отчество:"/>
+            <TextBlock  Text="{Binding MiddleName}"/>
+            <TextBlock  Text="Специальность:"/>
+            <TextBlock Text="{Binding Specialisation}"/>
         </WrapPanel>
     </Grid>
 </Page>

@@ -5,11 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_7_TRPO.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="295" d:DesignWidth="250"
+      d:DesignHeight="245" d:DesignWidth="250"
       Title="Создать пациента">
 
     <Grid>
-        <StackPanel Margin="5" x:Name="P_RegisterForm">
+        <StackPanel x:Name="P_RegisterForm">
             <TextBlock Text="Фамилия:"/>
             <TextBox Text="{Binding LastName}"/>
             <TextBlock Text="Имя:"/>
@@ -20,8 +20,8 @@
             <TextBox Text="{Binding PhoneNumber}"/>
             <TextBlock Text="Дата рождения:"/>
             <DatePicker SelectedDate="{Binding Birthday}" x:Name="P_BD"></DatePicker>
-            <Button Content="Зарегистрировать" Margin="5" Click="NewPatient"/>
-            <Button Content="Отмена" Margin="5" Click="Cancel_Click"/>
+            <Button Style="{StaticResource Standart}" Content="Зарегистрировать"  Click="NewPatient"/>
+            <Button  Style="{StaticResource Standart}" Content="Отмена"  Click="Cancel_Click"/>
         </StackPanel>
     </Grid>
 </Page>

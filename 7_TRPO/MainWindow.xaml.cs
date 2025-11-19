@@ -146,61 +146,66 @@ namespace _7_TRPO
             //InfoPanel.DataContext = info;
             //info.Refresh();
         }
-       // //Изменить (Пациент)
-       // private void ChangePatient(object sender, RoutedEventArgs e)
-       // {
-       //     changePatient.LastVisit = DateTime.Now;
-       //     changePatient.LastDoctor = CurrentDoctor.Id;
-       //     string id = changePatient.Id.ToString().PadLeft(7, '0');
-       //     string jsonString = JsonSerializer.Serialize(changePatient);
-       //     File.WriteAllText("P_" + id + ".json", jsonString);
-       //     MessageBox.Show($"Пациент успешно изменен!");
-       //     CurrentPatient = JsonSerializer.Deserialize<Patient>(jsonString);
-       //     P_current.DataContext = CurrentPatient;
-       // }
-       ////Зарегистрировать (Пациент)
-       // private void NewPatient(object sender, RoutedEventArgs e)
-       // {
-       //     if (!DoctorSigned)
-       //     {
-       //         MessageBox.Show("Сначала войдите как доктор");
-       //         return;
-       //     }
-       //     string currentID = "";
-       //     int count = 0;
-       //     if (newPatient.Name == "" || newPatient.LastName == "" || newPatient.MiddleName == ""||P_BD.SelectedDate == null)
-       //     {
-       //         MessageBox.Show("Заполните все поля!");
-       //         return;
-       //     }
-       //     if (!File.Exists("P_id.txt"))
-       //     {
-       //         currentID = "0000001";
-       //         File.WriteAllText("P_id.txt", currentID);
-       //     }
-       //     else
-       //     {
-       //         count = File.ReadAllLines("P_id.txt").Length;
-       //         count++;
-       //         newPatient.LastVisit = DateTime.Now;
-       //         newPatient.LastDoctor = CurrentDoctor.Id;
 
-       //         newPatient.Id = count;
-       //         currentID = count.ToString().PadLeft(7, '0');
-       //         File.AppendAllText("P_id.txt", "\n" + currentID);
-       //     }
-       //     string jsonString = JsonSerializer.Serialize(newPatient);
-       //     File.WriteAllText("P_" + currentID + ".json", jsonString);
-       //     MessageBox.Show($"Пациент успешно зарегистрирован! \nЕго идентификатор - {currentID}");
-       //     //PatientSelected = true;
-       //     //CurrentPatient = newPatient;
-       //     //P_current.DataContext = CurrentPatient;
+        private void SwitchTheme(object sender, RoutedEventArgs e)
+        {
+            ThemeHelper.Toggle();
+        }
+        // //Изменить (Пациент)
+        // private void ChangePatient(object sender, RoutedEventArgs e)
+        // {
+        //     changePatient.LastVisit = DateTime.Now;
+        //     changePatient.LastDoctor = CurrentDoctor.Id;
+        //     string id = changePatient.Id.ToString().PadLeft(7, '0');
+        //     string jsonString = JsonSerializer.Serialize(changePatient);
+        //     File.WriteAllText("P_" + id + ".json", jsonString);
+        //     MessageBox.Show($"Пациент успешно изменен!");
+        //     CurrentPatient = JsonSerializer.Deserialize<Patient>(jsonString);
+        //     P_current.DataContext = CurrentPatient;
+        // }
+        ////Зарегистрировать (Пациент)
+        // private void NewPatient(object sender, RoutedEventArgs e)
+        // {
+        //     if (!DoctorSigned)
+        //     {
+        //         MessageBox.Show("Сначала войдите как доктор");
+        //         return;
+        //     }
+        //     string currentID = "";
+        //     int count = 0;
+        //     if (newPatient.Name == "" || newPatient.LastName == "" || newPatient.MiddleName == ""||P_BD.SelectedDate == null)
+        //     {
+        //         MessageBox.Show("Заполните все поля!");
+        //         return;
+        //     }
+        //     if (!File.Exists("P_id.txt"))
+        //     {
+        //         currentID = "0000001";
+        //         File.WriteAllText("P_id.txt", currentID);
+        //     }
+        //     else
+        //     {
+        //         count = File.ReadAllLines("P_id.txt").Length;
+        //         count++;
+        //         newPatient.LastVisit = DateTime.Now;
+        //         newPatient.LastDoctor = CurrentDoctor.Id;
 
-       //     string json = File.ReadAllText("P_" + $"{currentID}" + ".json");
-       //     changePatient = JsonSerializer.Deserialize<Patient>(json);
-       //     P_Change.DataContext = changePatient;
-       //     info.Refresh();
-       // }
-        
+        //         newPatient.Id = count;
+        //         currentID = count.ToString().PadLeft(7, '0');
+        //         File.AppendAllText("P_id.txt", "\n" + currentID);
+        //     }
+        //     string jsonString = JsonSerializer.Serialize(newPatient);
+        //     File.WriteAllText("P_" + currentID + ".json", jsonString);
+        //     MessageBox.Show($"Пациент успешно зарегистрирован! \nЕго идентификатор - {currentID}");
+        //     //PatientSelected = true;
+        //     //CurrentPatient = newPatient;
+        //     //P_current.DataContext = CurrentPatient;
+
+        //     string json = File.ReadAllText("P_" + $"{currentID}" + ".json");
+        //     changePatient = JsonSerializer.Deserialize<Patient>(json);
+        //     P_Change.DataContext = changePatient;
+        //     info.Refresh();
+        // }
+
     }
 }

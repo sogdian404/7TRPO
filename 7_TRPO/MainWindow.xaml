@@ -150,6 +150,15 @@
         </Border>
     </Grid>-->
     <Grid>
-        <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="22"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Настройки">
+                <MenuItem Header="Сменить тему" Click="SwitchTheme"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Frame Grid.Row="1" Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

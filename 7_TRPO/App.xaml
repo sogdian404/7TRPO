@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:_7_TRPO"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/Colors/Default.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/ButtonsStyles.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/WindowStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

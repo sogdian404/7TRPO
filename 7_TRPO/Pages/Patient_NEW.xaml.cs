@@ -48,6 +48,7 @@ namespace _7_TRPO.Pages
                 File.AppendAllText("P_id.txt", "\n" + currentID);
             }
             newPatient.Id = count;
+            newPatient.AppointmentStories.Add(new Appointment { date = DateTime.Now, doctor_id = Per.currentDoctor.Id, Diagnosis = "Регистрация" });
             string jsonString = JsonSerializer.Serialize(newPatient);
             File.WriteAllText("P_" + currentID + ".json", jsonString);
 

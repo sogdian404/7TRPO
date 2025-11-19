@@ -10,6 +10,9 @@ namespace _7_TRPO
     public class Patient : INotifyPropertyChanged
     {
         private ObservableCollection<Appointment> appointmentStories = new();
+        [JsonIgnore]
+        public Appointment appointment { get; set; } = new Appointment();
+        
         public ObservableCollection<Appointment> AppointmentStories
         {
             get => appointmentStories;
@@ -95,7 +98,8 @@ namespace _7_TRPO
         private DateTime _lastVisit;
         public DateTime LastVisit
         {
-            get => AppointmentStories[AppointmentStories.Count - 1].date;
+            get {
+                return AppointmentStories.Count > 0 ? AppointmentStories[AppointmentStories.Count-1].date :DateTime.Now; }
             set
             {
                 _lastVisit = value;

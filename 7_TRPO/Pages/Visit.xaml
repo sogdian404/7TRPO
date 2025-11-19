@@ -17,14 +17,14 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <WrapPanel>
-        <Button Content="Изменить информацию о пациенте" Click="EditPatientInfo_Click" Margin="5" HorizontalAlignment="Left"/>
-        <TextBlock Text="История приемов:" Grid.Row="0" Margin="5"/>
+        <Button Content="Изменить информацию о пациенте" Click="EditPatientInfo_Click" Style="{StaticResource Standart}" HorizontalAlignment="Left"/>
+        <TextBlock Text="История приемов:" Grid.Row="0"/>
         </WrapPanel>
-        <ListView Grid.Row="1" ItemsSource="{Binding AppointmentStories}" Margin="10">
+        <ListView Grid.Row="1" ItemsSource="{Binding AppointmentStories, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding appointment, UpdateSourceTrigger=PropertyChanged}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Border BorderBrush="Black" BorderThickness="1" Margin="2" Padding="5">
-                        <WrapPanel Orientation="Vertical">
+                    <Border BorderBrush="Black" BorderThickness="1">
+                        <WrapPanel Style="{StaticResource WP}" >
                             <TextBlock Text="Доктор:"/>
                             <TextBlock Text="{Binding doctor_id}" />
                             <TextBlock Text="Диагноз:"/>
@@ -35,45 +35,49 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <StackPanel Grid.Column="2" Grid.RowSpan="2" Background="White">
-            <WrapPanel Orientation="Vertical">
-            <TextBlock Padding="1" Text="Идентификатор:"/>
-            <TextBlock Padding="1" Text="{Binding Id}"/>
+        <StackPanel Grid.Column="2" Grid.RowSpan="2" >
+            <WrapPanel Style="{StaticResource WP}">
+            <TextBlock Text="Идентификатор:"/>
+            <TextBlock Text="{Binding Id}"/>
         </WrapPanel>
-        <WrapPanel Orientation="Vertical">
-            <TextBlock Padding="1" Text="Фамилия:"/>
-            <TextBlock Padding="1" Text="{Binding LastName}"/>
+            <WrapPanel Style="{StaticResource WP}">
+            <TextBlock Text="Фамилия:"/>
+            <TextBlock Text="{Binding LastName}"/>
         </WrapPanel>
-        <WrapPanel Orientation="Vertical">
-            <TextBlock Padding="1" Text="Имя:"/>
-            <TextBlock Padding="1" Text="{Binding Name}"/>
+            <WrapPanel Style="{StaticResource WP}">
+            <TextBlock Text="Имя:"/>
+            <TextBlock Text="{Binding Name}"/>
         </WrapPanel>
-        <WrapPanel Orientation="Vertical">
-            <TextBlock Padding="1" Text="Отчество:"/>
-            <TextBlock Padding="1" Text="{Binding MiddleName}"/>
+            <WrapPanel Style="{StaticResource WP}">
+            <TextBlock Text="Отчество:"/>
+            <TextBlock Text="{Binding MiddleName}"/>
         </WrapPanel>
-        <WrapPanel Orientation="Vertical">
-            <TextBlock Padding="1" Text="День рождения:"/>
-            <TextBlock Padding="1" Text="{Binding Birthday}"/>
+            <WrapPanel Style="{StaticResource WP}">
+            <TextBlock Text="День рождения:"/>
+            <TextBlock Text="{Binding Birthday}"/>
         </WrapPanel>
-        <WrapPanel Orientation="Vertical">
-            <TextBlock Padding="1" Text="Последнее обращение:"/>
-            <DatePicker Padding="1" Width="240" SelectedDate="{Binding LastVisit}"/>
+            <WrapPanel Style="{StaticResource WP}">
+            <TextBlock Text="Последнее обращение:"/>
+            <DatePicker Width="240" SelectedDate="{Binding LastVisit}"/>
         </WrapPanel>
-        <WrapPanel Orientation="Vertical">
-            <TextBlock Padding="1" Text="Последний доктор:"/>
-            <TextBlock Padding="1" Text="{Binding LastDoctorName}"/>
+            <WrapPanel Style="{StaticResource WP}">
+            <TextBlock Text="Последний доктор:"/>
+            <TextBlock Text="{Binding LastDoctorName}"/>
         </WrapPanel>
-        <WrapPanel Orientation="Vertical">
-            <TextBlock Padding="1" Text="Диагноз:"/>
-            <TextBox Width="240" Padding="1" Text="{Binding Diagnosis}"/>
+            <WrapPanel Style="{StaticResource WP}">
+            <TextBlock Text="Диагноз:"/>
+            <TextBox Width="240" Text="{Binding Diagnosis}"/>
         </WrapPanel>
-        <WrapPanel Orientation="Vertical">
-            <TextBlock Padding="1" Text="Рекомендации:"/>
-            <TextBox Height="50" Width="240" Padding="1" Text="{Binding Recomendation}"/>
+            <WrapPanel Style="{StaticResource WP}">
+            <TextBlock Text="Рекомендации:"/>
+            <TextBox Height="50" Width="240" Text="{Binding Recomendation}"/>
         </WrapPanel>
-            <Button Margin="5" Width="200" HorizontalAlignment="Left" Content="Сохранить" Click="SaveNewData"/>
-            <Button Margin="5" Width="200" HorizontalAlignment="Left" Content="Завершить прием пациента" Click="ResetPatient"/>
+            <WrapPanel Style="{StaticResource WP_H}">
+                <Button Style="{StaticResource AddBtn}" Click="SaveNewData"/>
+                <Button Style="{StaticResource Standart}" Content="Завершить прием пациента" Click="ResetPatient"/>
+                <Button Style="{StaticResource DelBtn}" Click="DeletePatientVisit"/>
+            </WrapPanel>
+            
         </StackPanel>
     </Grid>
 </Page>

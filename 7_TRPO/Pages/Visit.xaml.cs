@@ -20,8 +20,7 @@ namespace _7_TRPO.Pages
     /// </summary>
     public partial class Visit : Page
     {
-        Appointment NewAppointment = new Appointment();
-
+        Appointment NewAppointment { get; set; } = new Appointment();
         //Сохранить (Прием пациента)
         private void SaveNewData(object sender, RoutedEventArgs e)
         {
@@ -38,6 +37,20 @@ namespace _7_TRPO.Pages
         {
             Per.currentPatient = new Patient();
             NavigationService.GoBack();
+        }
+        private void DeletePatientVisit(object sender, RoutedEventArgs e)
+        {
+            if (Per.currentPatient.appointment != null)
+            {
+                Per.currentPatient.AppointmentStories.Remove(Per.currentPatient.appointment);
+                string json = JsonSerializer.Serialize(Per.currentPatient);
+                File.WriteAllText("P_" + $"{Per.currentPatient.Id.ToString().PadLeft(7, '0')}" + ".json", json);
+                DataContext = Per.currentPatient;
+            }
+            else
+            {
+                MessageBox.Show("Выберите прием");
+            }
         }
         public Visit()
         {

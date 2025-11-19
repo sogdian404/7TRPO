@@ -13,6 +13,7 @@ namespace _7_TRPO.Pages
         public D_registration()
         {
             InitializeComponent();
+            D_RegisterForm.DataContext = newDoctor;
         }
         private void NewDoctor(object sender, RoutedEventArgs e)
         {
@@ -23,7 +24,7 @@ namespace _7_TRPO.Pages
                 MessageBox.Show("Заполните все поля!");
                 return;
             }
-            if (Pass1.Text != Pass2.Text)
+            if (newDoctor.Password != newDoctor.RepeatPassword)
             {
                 MessageBox.Show("Пароли не совпадают!");
                 return;

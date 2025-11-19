@@ -33,7 +33,19 @@ namespace _7_TRPO.Pages
             D_current.DataContext = Per.currentDoctor;
             ReadAllPatients();
         }
-
+        private void DeletePatient(object sender, RoutedEventArgs e)
+        {
+            if (SelectedPatient != null)
+            {
+               
+                File.Delete("P_"+SelectedPatient.Id.ToString().PadLeft(7,'0')+".json");
+                ReadAllPatients();
+            }
+            else
+            {
+                MessageBox.Show("Выберите пациента");
+            }
+        }
         public static void ReadAllPatients()
         {
             P_List.Clear();

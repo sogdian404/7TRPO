@@ -8,7 +8,7 @@
       d:DesignHeight="300" d:DesignWidth="200"
       Title="Ргистрация">
     <Grid>
-            <StackPanel Margin="5" x:Name="D_RegisterForm" Height="280" Width="180">
+            <StackPanel x:Name="D_RegisterForm" Height="280" Width="180">
                 <TextBlock Text="Фамилия:"/>
                 <TextBox Text="{Binding LastName}"/>
                 <TextBlock Text="Имя:"/>
@@ -18,11 +18,11 @@
                 <TextBlock Text="Специальность:"/>
                 <TextBox  Text="{Binding Specialisation}"/>
                 <TextBlock Text="Пароль:"/>
-                <TextBox  Text="{Binding Password}" x:Name="Pass1"/>
+                <TextBox  Text="{Binding Password}"/>
                 <TextBlock Text="Подтвердите пароль:"/>
-                <TextBox  Text="{Binding RepeatPassword}" x:Name="Pass2"/>
-                <Button Content="Зарегистрировать" Margin="5" Click="NewDoctor"/>
-            <Button Content="Отмена" Margin="5" Click="Back_Click"/>
+                <TextBox  Text="{Binding RepeatPassword}" />
+                <Button Style="{StaticResource Standart}" Content="Зарегистрировать" Click="NewDoctor"/>
+            <Button Style="{StaticResource Standart}" Content="Отмена" Click="Back_Click"/>
         </StackPanel>
     </Grid>
 </Page>
