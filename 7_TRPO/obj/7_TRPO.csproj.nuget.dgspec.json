@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\st310-10\\Desktop\\IXS_trpo-sp\\TRPO\\7_TRPO\\7_TRPO\\7_TRPO.csproj": {}
+    "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\7TRPO\\7_TRPO\\7_TRPO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\st310-10\\Desktop\\IXS_trpo-sp\\TRPO\\7_TRPO\\7_TRPO\\7_TRPO.csproj": {
+    "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\7TRPO\\7_TRPO\\7_TRPO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\st310-10\\Desktop\\IXS_trpo-sp\\TRPO\\7_TRPO\\7_TRPO\\7_TRPO.csproj",
+        "projectUniqueName": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\7TRPO\\7_TRPO\\7_TRPO.csproj",
         "projectName": "7_TRPO",
-        "projectPath": "C:\\Users\\st310-10\\Desktop\\IXS_trpo-sp\\TRPO\\7_TRPO\\7_TRPO\\7_TRPO.csproj",
-        "packagesPath": "C:\\Users\\st310-10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\st310-10\\Desktop\\IXS_trpo-sp\\TRPO\\7_TRPO\\7_TRPO\\obj\\",
+        "projectPath": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\7TRPO\\7_TRPO\\7_TRPO.csproj",
+        "packagesPath": "C:\\Users\\sogdian404\\.nuget\\packages\\",
+        "outputPath": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\7TRPO\\7_TRPO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\st310-10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sogdian404\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\st310-10\\.nuget\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +50,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -70,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

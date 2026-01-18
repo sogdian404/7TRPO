@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using static System.Collections.Specialized.BitVector32;
-
+using _7_TRPO.Converters;
 namespace _7_TRPO.Pages
 {
     /// <summary>
