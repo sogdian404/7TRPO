@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mKozd3ZeK/8=",
+  "dgSpecHash": "Zl5XFKnNdCU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\st310-10\\Desktop\\IXS_trpo-sp\\TRPO\\7_TRPO\\7_TRPO\\7_TRPO.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\7TRPO\\7_TRPO\\7_TRPO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sogdian404\\.nuget\\packages\\materialdesigncolors\\5.3.0\\materialdesigncolors.5.3.0.nupkg.sha512",
+    "C:\\Users\\sogdian404\\.nuget\\packages\\materialdesignthemes\\5.3.0\\materialdesignthemes.5.3.0.nupkg.sha512",
+    "C:\\Users\\sogdian404\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+  ],
   "logs": []
 }

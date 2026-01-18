@@ -4,6 +4,8 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_7_TRPO.Pages"
+      xmlns:models="clr-namespace:_7_TRPO"
+      xmlns:converters="clr-namespace:_7_TRPO.Converters"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="хз как назвать">
@@ -28,12 +30,12 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
-                        <StackPanel Style="{StaticResource SP}">
+                        <WrapPanel Style="{StaticResource WP}">
                                 <TextBlock Text="{Binding Id}"/>
                                 <TextBlock Text="{Binding LastName}"/>
                                 <TextBlock Text="{Binding Name}"/>
-                                <TextBlock Text="{Binding PhoneNumber}"/>
-                            </StackPanel>
+                            <TextBlock Text="{Binding PhoneNumber,Converter={StaticResource NumberConverter}}"/>
+                            </WrapPanel>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>

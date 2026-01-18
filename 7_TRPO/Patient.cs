@@ -1,9 +1,10 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Text.Json.Serialization;
+using System.Diagnostics;
 using System.IO;
+using System.Runtime.CompilerServices;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace _7_TRPO
 {
@@ -116,6 +117,26 @@ namespace _7_TRPO
                 OnPropertyChanged();
             }
         }
+        public string AreAdult
+        {
+            get
+            {
+                var age = DateTime.Now.Year - Birthday.Year;
+                if (Birthday > DateTime.Now.AddYears(-age)) age--;
+                return age >= 18 ? "Совершеннолетний" : "Несовершеннолетний";
+            }
+        }
+       public string SinceLastVisit
+        {
+            get
+            {
+                var span = DateTime.Now - LastVisit;
+                if (AppointmentStories.Count==1)
+                    return $"Первый прием";
+                return $"{(int)span.TotalDays} дн. назад";
+            }
+        }
+
         [JsonIgnore]
         private readonly string _lastDoctorName = "";
         public string LastDoctorName

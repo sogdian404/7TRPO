@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\st310-10\Desktop\IXS_trpo-sp\TRPO\7_TRPO\7_TRPO\obj\Debug\net8.0-windows\
+E:\7TRPO\7_TRPO\obj\Debug\net8.0-windows\
 _7_TRPO
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\st310-10\Desktop\IXS_trpo-sp\TRPO\7_TRPO\7_TRPO\App.xaml
+E:\7TRPO\7_TRPO\App.xaml
 11389411537
-
-181353238439
-198-537775612
+22-1276887357
+18-1504127675
+2012113378971
 MainWindow.xaml;Pages\D_registration.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\Patient_Edit.xaml;Pages\Patient_NEW.xaml;Pages\Visit.xaml;Styles\Colors\Dark.xaml;Styles\Colors\Default.xaml;Styles\UI\ButtonsStyles.xaml;Styles\UI\WindowStyles.xaml;
 
 False

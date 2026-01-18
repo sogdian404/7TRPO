@@ -1,15 +1,20 @@
 ﻿<Application x:Class="_7_TRPO.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:local="clr-namespace:_7_TRPO"
+             xmlns:conv="clr-namespace:_7_TRPO.Converters"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="DeepPurple" SecondaryColor="Lime"/>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" />
                 <ResourceDictionary Source="/Styles/Colors/Default.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/ButtonsStyles.xaml"/>
                 <ResourceDictionary Source="/Styles/UI/WindowStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+            <conv:NumberConverter x:Key="NumberConverter" />
         </ResourceDictionary>
     </Application.Resources>
 </Application>
