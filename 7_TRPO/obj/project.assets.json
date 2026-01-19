@@ -322,11 +322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\7TRPO\\7_TRPO\\7_TRPO.csproj",
+      "projectUniqueName": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\7_TRPO.csproj",
       "projectName": "7_TRPO",
-      "projectPath": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\7TRPO\\7_TRPO\\7_TRPO.csproj",
+      "projectPath": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\7_TRPO.csproj",
       "packagesPath": "C:\\Users\\sogdian404\\.nuget\\packages\\",
-      "outputPath": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\7TRPO\\7_TRPO\\obj\\",
+      "outputPath": "D:\\UCHEBNIE\\isomatov_h\\ИХС trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

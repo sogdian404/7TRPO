@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
-    <Style TargetType="Button" x:Key="Standart">
+    <Style TargetType="Button" x:Key="Standart" BasedOn="{StaticResource MaterialDesignFlatButton}">
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
@@ -28,28 +28,28 @@
 
     <Style  TargetType="Button" x:Key="AddBtn" BasedOn="{StaticResource Standart}">
         <Setter Property="Content" Value="+"></Setter>
-        <Setter Property="Background" Value="{DynamicResource ButtonHover}"/>
-        <Setter Property="Width" Value="50"/>
+        <Setter Property="Background" Value="{DynamicResource ButtonHoverAdd}"/>
+        <Setter Property="MinWidth" Value="50"/>
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter Property="Background" Value="Green" />
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-                <Setter Property="Background" Value="{DynamicResource ButtonBack}" />
+                <Setter Property="Background" Value="{DynamicResource ButtonTap}" />
             </Trigger>
         </Style.Triggers>
     </Style>
     
     <Style  TargetType="Button" x:Key="DelBtn" BasedOn="{StaticResource Standart}">
         <Setter Property="Content" Value="🗑️"></Setter>
-        <Setter Property="Background" Value="{DynamicResource ButtonTap}"/>
-        <Setter Property="Width" Value="50"/>
+        <Setter Property="Background" Value="{DynamicResource ButtonDel}"/>
+        <Setter Property="MinWidth" Value="50"/>
         <Style.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter Property="Background" Value="{DynamicResource ButtonHoverDel}" />
             </Trigger>
             <Trigger Property="IsPressed" Value="True">
-                <Setter Property="Background" Value="{DynamicResource ButtonBack}" />
+                <Setter Property="Background" Value="{DynamicResource ButtonTap}" />
             </Trigger>
         </Style.Triggers>
     </Style>

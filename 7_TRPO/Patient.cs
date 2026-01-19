@@ -10,7 +10,7 @@ namespace _7_TRPO
 {
     public class Patient : INotifyPropertyChanged
     {
-        private ObservableCollection<Appointment> appointmentStories = new();
+        private ObservableCollection<Appointment> appointmentStories = [];
         [JsonIgnore]
         public Appointment appointment { get; set; } = new Appointment();
         
@@ -137,8 +137,6 @@ namespace _7_TRPO
             }
         }
 
-        [JsonIgnore]
-        private readonly string _lastDoctorName = "";
         public string LastDoctorName
         {
             get => GetNameById(LastDoctor);

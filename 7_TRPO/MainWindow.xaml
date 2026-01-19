@@ -151,7 +151,7 @@
     </Grid>-->
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="22"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Menu>

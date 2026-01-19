@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <Style TargetType="Window">
+    <Style TargetType="Window" BasedOn="{StaticResource MaterialDesignWindow}">
         <Setter Property="Background" Value="{DynamicResource WindowBack}"/>
         <Setter Property="Foreground" Value="{DynamicResource Font}"/>
     </Style>
@@ -9,38 +9,46 @@
         <Setter Property="Background" Value="{DynamicResource WindowBack}"/>
         <Setter Property="Foreground" Value="{DynamicResource Font}"/>
     </Style>
-    
-    <Style TargetType="TextBlock">
+
+    <Style TargetType="TextBlock"  BasedOn="{StaticResource MaterialDesignTextBlock}">
         <Setter Property="Foreground" Value="{DynamicResource Font}"/>
         <Setter Property="Padding" Value="1"/>
     </Style>
-    
-    <Style TargetType="TextBox">
+
+    <Style TargetType="TextBox"  BasedOn="{StaticResource MaterialDesignTextBox}">
         <Setter Property="Foreground" Value="{DynamicResource Font}"/>
         <Setter Property="Padding" Value="1"/>
-        <Setter Property="Background" Value="{DynamicResource WindowBack}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource Border}"/>
+        <Setter Property="BorderThickness" Value="0.5"/>
+        <Setter Property="Background" Value="{DynamicResource InputBack}"/>
     </Style>
-    
-    <Style TargetType="PasswordBox">
+
+    <Style TargetType="PasswordBox"  BasedOn="{StaticResource MaterialDesignPasswordBox}">
         <Setter Property="Foreground" Value="{DynamicResource Font}"/>
         <Setter Property="Padding" Value="1"/>
-        <Setter Property="Background" Value="{DynamicResource WindowBack}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource Border}"/>
+        <Setter Property="BorderThickness" Value="0.5"/>
+        <Setter Property="Background" Value="{DynamicResource InputBack}"/>
     </Style>
-    
-    <Style TargetType="DatePicker">
+
+    <Style TargetType="DatePicker"  BasedOn="{StaticResource MaterialDesignDatePicker}">
         <Setter Property="Foreground" Value="{DynamicResource Font}"/>
         <Setter Property="Padding" Value="1"/>
-        <Setter Property="Background" Value="{DynamicResource WindowBack}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource Border}"/>
+        <Setter Property="BorderThickness" Value="0.5"/>
+        <Setter Property="Background" Value="{DynamicResource InputBack}"/>
     </Style>
-    
-    <Style TargetType="ListView">
+
+    <Style TargetType="ListView"  BasedOn="{StaticResource MaterialDesignListView}">
         <Setter Property="Margin" Value="10"/>
-        <Setter Property="Background" Value="{DynamicResource WindowBack}"/>
+        <Setter Property="Background" Value="{DynamicResource PanelBack}"/>
         <Setter Property="Foreground" Value="{DynamicResource Font}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource Border}"></Setter>
+        <Setter Property="BorderThickness" Value="1"/>
     </Style>
     
     <Style TargetType="StackPanel" x:Key="SP">
-        <Setter Property="Background" Value="{DynamicResource WindowBack}"/>
+        <Setter Property="Background" Value="{DynamicResource PanelBack}"/>
         <Setter Property="Orientation" Value="Vertical"/>
     </Style>
     <Style TargetType="StackPanel" x:Key="SP_H" BasedOn="{StaticResource SP}">
@@ -48,7 +56,7 @@
     </Style>
     
     <Style TargetType="WrapPanel" x:Key="WP">
-        <Setter Property="Background" Value="{DynamicResource WindowBack}"/>
+        <Setter Property="Background" Value="{DynamicResource PanelBack}"/>
         <Setter Property="Orientation" Value="Vertical"/>
     </Style>
     <Style TargetType="WrapPanel" x:Key="WP_H" BasedOn="{StaticResource WP}">
@@ -56,6 +64,6 @@
     </Style>
     
     <Style TargetType="Grid">
-        <Setter Property="Background" Value="{DynamicResource WindowBack}"/>
+        <Setter Property="Background" Value="{DynamicResource PanelBack}"/>
     </Style>
 </ResourceDictionary>

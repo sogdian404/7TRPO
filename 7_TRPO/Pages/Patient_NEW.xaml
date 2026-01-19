@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_7_TRPO.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="245" d:DesignWidth="250"
+       d:DesignWidth="250"
       Title="Создать пациента">
 
     <Grid>
@@ -21,7 +21,7 @@
             <TextBlock Text="Дата рождения:"/>
             <DatePicker SelectedDate="{Binding Birthday}" x:Name="P_BD"></DatePicker>
             <Button Style="{StaticResource Standart}" Content="Зарегистрировать"  Click="NewPatient"/>
-            <Button  Style="{StaticResource Standart}" Content="Отмена"  Click="Cancel_Click"/>
+            <Button  Style="{StaticResource DelBtn}" Content="Отмена"  Click="Cancel_Click"/>
         </StackPanel>
     </Grid>
 </Page>

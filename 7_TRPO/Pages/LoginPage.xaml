@@ -5,10 +5,10 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_7_TRPO.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="200" d:DesignWidth="200"
+      
       Title="Войти">
 
-    <StackPanel Width="200" Height="200">
+    <StackPanel>
         <TextBlock Text="Идентификатор:"/>
         <TextBox x:Name="D_SignId"/>
         <TextBlock Text="Пароль:"/>
