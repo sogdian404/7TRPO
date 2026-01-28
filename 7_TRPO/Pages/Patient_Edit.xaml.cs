@@ -30,6 +30,11 @@ namespace _7_TRPO.Pages
         }
         private void Save_Click(object sender, RoutedEventArgs e)
         {
+            if (_patient.LastName == "" || _patient.MiddleName == "" || _patient.Name == "" || _patient.PhoneNumber == "")
+            {
+                MessageBox.Show("Заполните все поля");
+                return;
+            }
             string id = _patient.Id.ToString().PadLeft(7, '0');
             string json = JsonSerializer.Serialize(_patient);
             File.WriteAllText("P_" + id + ".json",json);

@@ -4,12 +4,124 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_7_TRPO.Pages"
+      xmlns:validators="clr-namespace:_7_TRPO.Validations"
+      xmlns:valid="clr-namespace:_7_TRPO.Validations"
       mc:Ignorable="d" 
       d:DesignWidth="200"
       Title="Ргистрация">
     <Grid>
             <StackPanel x:Name="D_RegisterForm">
-                <TextBlock Text="Фамилия:"/>
+            <Label Content="Фамилия:"/>
+            <TextBox x:Name="LastNameTextBox">
+                <TextBox.Text>
+                    <Binding Path="LastName" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:Empty/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=LastNameTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Label Content="Имя:"/>
+            <TextBox x:Name="NameTextBox">
+                <TextBox.Text>
+                    <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:Empty/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=NameTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Label Content="Отчество:"/>
+            <TextBox x:Name="MiddleNameTextBox">
+                <TextBox.Text>
+                    <Binding Path="MiddleName" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:Empty/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=MiddleNameTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Label Content="Cпециальность:"/>
+            <TextBox x:Name="specialisation">
+                <TextBox.Text>
+                    <Binding Path="Specialisation" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:Empty/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=specialisation, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Label Content="Пароль:"/>
+            <TextBox x:Name="PasswordTextBox1">
+                <TextBox.Text>
+                    <Binding Path="Password" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:Empty/>
+                            <validators:Numbers/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=PasswordTextBox1, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <Label Content="Подтверждение пароля:"/>
+            <TextBox x:Name="PasswordTextBox2">
+                <TextBox.Text>
+                    <Binding Path="RepeatPassword" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:Empty/>
+                            <validators:Numbers/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=PasswordTextBox2, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <!--
+            <TextBlock Text="Фамилия:"/>
                 <TextBox Text="{Binding LastName}"/>
                 <TextBlock Text="Имя:"/>
                 <TextBox  Text="{Binding Name}"/>
@@ -20,7 +132,7 @@
                 <TextBlock Text="Пароль:"/>
                 <TextBox  Text="{Binding Password}"/>
                 <TextBlock Text="Подтвердите пароль:"/>
-                <TextBox  Text="{Binding RepeatPassword}" />
+                <TextBox  Text="{Binding RepeatPassword}" /> -->
                 <Button Style="{StaticResource Standart}" Content="Зарегистрировать" Click="NewDoctor"/>
             <Button Style="{StaticResource DelBtn}" Content="Отмена" Click="Back_Click"/>
         </StackPanel>

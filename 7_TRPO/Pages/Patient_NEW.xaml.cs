@@ -26,7 +26,7 @@ namespace _7_TRPO.Pages
                 return;
             }
 
-            if (newPatient.Name == "" || newPatient.LastName == "" || newPatient.MiddleName == "" || P_BD.SelectedDate == null)
+            if (newPatient.Name == "" || newPatient.LastName == "" ||newPatient.PhoneNumber==""|| newPatient.MiddleName == "")
             {
                 MessageBox.Show("Заполните все поля!");
                 return;

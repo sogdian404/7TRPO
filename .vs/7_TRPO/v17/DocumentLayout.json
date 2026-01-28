@@ -1,101 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\",
+  "WorkspaceRootPath": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\styles\\ui\\windowstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\styles\\ui\\windowstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\visit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\visit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\patient_new.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\patient_new.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\patient_new.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\patient_edit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\patient_edit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\patient_edit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\d_registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\d_registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\styles\\ui\\buttonsstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\styles\\ui\\buttonsstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\styles\\colors\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\styles\\colors\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\d_registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\d_registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\styles\\colors\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\styles\\colors\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\visit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\visit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\d_registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\d_registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\converters\\numberconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\converters\\numberconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\patient_new.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\patient_new.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\patient_new.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\validations\\empty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\validations\\empty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\visit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\visit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\validations\\phonenumbervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\validations\\phonenumbervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\validations\\numbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\validations\\numbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\pages\\patient_edit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\per.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\per.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\patient_edit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\patient_edit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\trpo_pr7\\7trpo\\7_trpo\\c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\d_registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\d_registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\styles\\ui\\windowstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\styles\\ui\\windowstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\styles\\ui\\buttonsstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\styles\\ui\\buttonsstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\styles\\colors\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\styles\\colors\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\styles\\colors\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\styles\\colors\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\converters\\numberconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\converters\\numberconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\pages\\visit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\pages\\visit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|d:\\uchebnie\\isomatov_h\\\u0438\u0445\u0441 trpo-sp\\trpo\\7trpo\\7_trpo\\c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C759FDD4-3551-42EB-8DAA-A98A761AA594}|7_TRPO\\7_TRPO.csproj|solutionrelative:7_trpo\\c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -106,87 +122,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Patient_NEW.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Patient_NEW.xaml",
-              "RelativeDocumentMoniker": "7_TRPO\\Pages\\Patient_NEW.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Patient_NEW.xaml",
-              "RelativeToolTip": "7_TRPO\\Pages\\Patient_NEW.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-14T15:01:59.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Visit.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Visit.xaml",
-              "RelativeDocumentMoniker": "7_TRPO\\Pages\\Visit.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Visit.xaml",
-              "RelativeToolTip": "7_TRPO\\Pages\\Visit.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-14T15:11:57.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WindowStyles.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Styles\\UI\\WindowStyles.xaml",
-              "RelativeDocumentMoniker": "7_TRPO\\Styles\\UI\\WindowStyles.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Styles\\UI\\WindowStyles.xaml",
-              "RelativeToolTip": "7_TRPO\\Styles\\UI\\WindowStyles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-17T15:32:19.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "7_TRPO\\MainWindow.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\MainWindow.xaml",
-              "RelativeToolTip": "7_TRPO\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-31T06:49:34.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "7_TRPO\\Pages\\MainPage.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\MainPage.xaml",
-              "RelativeToolTip": "7_TRPO\\Pages\\MainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-14T14:29:18.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "D_registration.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\D_registration.xaml",
-              "RelativeDocumentMoniker": "7_TRPO\\Pages\\D_registration.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\D_registration.xaml",
-              "RelativeToolTip": "7_TRPO\\Pages\\D_registration.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-14T08:55:06.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "LoginPage.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\LoginPage.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\LoginPage.xaml",
               "RelativeDocumentMoniker": "7_TRPO\\Pages\\LoginPage.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\LoginPage.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\LoginPage.xaml",
               "RelativeToolTip": "7_TRPO\\Pages\\LoginPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-14T14:18:33.387Z",
@@ -194,48 +138,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ButtonsStyles.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Styles\\UI\\ButtonsStyles.xaml",
-              "RelativeDocumentMoniker": "7_TRPO\\Styles\\UI\\ButtonsStyles.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Styles\\UI\\ButtonsStyles.xaml",
-              "RelativeToolTip": "7_TRPO\\Styles\\UI\\ButtonsStyles.xaml",
+              "DocumentIndex": 5,
+              "Title": "Visit.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Visit.xaml",
+              "RelativeDocumentMoniker": "7_TRPO\\Pages\\Visit.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Visit.xaml",
+              "RelativeToolTip": "7_TRPO\\Pages\\Visit.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-17T14:16:26.954Z",
+              "WhenOpened": "2025-11-14T15:11:57.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Dark.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Styles\\Colors\\Dark.xaml",
-              "RelativeDocumentMoniker": "7_TRPO\\Styles\\Colors\\Dark.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Styles\\Colors\\Dark.xaml",
-              "RelativeToolTip": "7_TRPO\\Styles\\Colors\\Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-19T15:35:52.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Patient.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Patient.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Patient.cs",
               "RelativeDocumentMoniker": "7_TRPO\\Patient.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Patient.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Patient.cs",
               "RelativeToolTip": "7_TRPO\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwE8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T04:31:35.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "D_registration.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\D_registration.xaml",
+              "RelativeDocumentMoniker": "7_TRPO\\Pages\\D_registration.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\D_registration.xaml",
+              "RelativeToolTip": "7_TRPO\\Pages\\D_registration.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-14T08:55:06.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Patient_NEW.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Patient_NEW.xaml",
+              "RelativeDocumentMoniker": "7_TRPO\\Pages\\Patient_NEW.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Patient_NEW.xaml",
+              "RelativeToolTip": "7_TRPO\\Pages\\Patient_NEW.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-14T15:01:59.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Patient_Edit.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Patient_Edit.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Patient_Edit.xaml",
               "RelativeDocumentMoniker": "7_TRPO\\Pages\\Patient_Edit.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Patient_Edit.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Patient_Edit.xaml",
               "RelativeToolTip": "7_TRPO\\Pages\\Patient_Edit.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-14T16:50:11.65Z",
@@ -243,11 +199,156 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "7_TRPO\\Pages\\MainPage.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "7_TRPO\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-14T14:29:18.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Patient_Edit.xaml.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Patient_Edit.xaml.cs",
+              "RelativeDocumentMoniker": "7_TRPO\\Pages\\Patient_Edit.xaml.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Patient_Edit.xaml.cs",
+              "RelativeToolTip": "7_TRPO\\Pages\\Patient_Edit.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:50:35.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PhoneNumberValidation.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Validations\\PhoneNumberValidation.cs",
+              "RelativeDocumentMoniker": "7_TRPO\\Validations\\PhoneNumberValidation.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Validations\\PhoneNumberValidation.cs",
+              "RelativeToolTip": "7_TRPO\\Validations\\PhoneNumberValidation.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:25:28.696Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Per.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Per.cs",
+              "RelativeDocumentMoniker": "7_TRPO\\Pages\\Per.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Per.cs",
+              "RelativeToolTip": "7_TRPO\\Pages\\Per.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T09:34:41.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Numbers.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Validations\\Numbers.cs",
+              "RelativeDocumentMoniker": "7_TRPO\\Validations\\Numbers.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Validations\\Numbers.cs",
+              "RelativeToolTip": "7_TRPO\\Validations\\Numbers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:24:49.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "D_registration.xaml.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\D_registration.xaml.cs",
+              "RelativeDocumentMoniker": "7_TRPO\\Pages\\D_registration.xaml.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\D_registration.xaml.cs",
+              "RelativeToolTip": "7_TRPO\\Pages\\D_registration.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T08:56:48.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Patient_NEW.xaml.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Patient_NEW.xaml.cs",
+              "RelativeDocumentMoniker": "7_TRPO\\Pages\\Patient_NEW.xaml.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Patient_NEW.xaml.cs",
+              "RelativeToolTip": "7_TRPO\\Pages\\Patient_NEW.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBwAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T15:04:20.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Empty.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Validations\\Empty.cs",
+              "RelativeDocumentMoniker": "7_TRPO\\Validations\\Empty.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Validations\\Empty.cs",
+              "RelativeToolTip": "7_TRPO\\Validations\\Empty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:23:48.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WindowStyles.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Styles\\UI\\WindowStyles.xaml",
+              "RelativeDocumentMoniker": "7_TRPO\\Styles\\UI\\WindowStyles.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Styles\\UI\\WindowStyles.xaml",
+              "RelativeToolTip": "7_TRPO\\Styles\\UI\\WindowStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T15:32:19.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ButtonsStyles.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Styles\\UI\\ButtonsStyles.xaml",
+              "RelativeDocumentMoniker": "7_TRPO\\Styles\\UI\\ButtonsStyles.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Styles\\UI\\ButtonsStyles.xaml",
+              "RelativeToolTip": "7_TRPO\\Styles\\UI\\ButtonsStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T14:16:26.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "7_TRPO\\MainWindow.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\MainWindow.xaml",
+              "RelativeToolTip": "7_TRPO\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-31T06:49:34.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dark.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Styles\\Colors\\Dark.xaml",
+              "RelativeDocumentMoniker": "7_TRPO\\Styles\\Colors\\Dark.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Styles\\Colors\\Dark.xaml",
+              "RelativeToolTip": "7_TRPO\\Styles\\Colors\\Dark.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-19T15:35:52.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Default.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Styles\\Colors\\Default.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Styles\\Colors\\Default.xaml",
               "RelativeDocumentMoniker": "7_TRPO\\Styles\\Colors\\Default.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Styles\\Colors\\Default.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Styles\\Colors\\Default.xaml",
               "RelativeToolTip": "7_TRPO\\Styles\\Colors\\Default.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-19T15:38:49.36Z",
@@ -255,24 +356,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "D_registration.xaml.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\D_registration.xaml.cs",
-              "RelativeDocumentMoniker": "7_TRPO\\Pages\\D_registration.xaml.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\D_registration.xaml.cs",
-              "RelativeToolTip": "7_TRPO\\Pages\\D_registration.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T08:56:48.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "7_TRPO\\Pages\\MainPage.xaml.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\MainPage.xaml.cs",
               "RelativeToolTip": "7_TRPO\\Pages\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -280,11 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "App.xaml",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\App.xaml",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\App.xaml",
               "RelativeDocumentMoniker": "7_TRPO\\App.xaml",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\App.xaml",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\App.xaml",
               "RelativeToolTip": "7_TRPO\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-17T05:58:26.74Z",
@@ -292,11 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "NumberConverter.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Converters\\NumberConverter.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Converters\\NumberConverter.cs",
               "RelativeDocumentMoniker": "7_TRPO\\Converters\\NumberConverter.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Converters\\NumberConverter.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Converters\\NumberConverter.cs",
               "RelativeToolTip": "7_TRPO\\Converters\\NumberConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -304,11 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Visit.xaml.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Visit.xaml.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Visit.xaml.cs",
               "RelativeDocumentMoniker": "7_TRPO\\Pages\\Visit.xaml.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Visit.xaml.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\Visit.xaml.cs",
               "RelativeToolTip": "7_TRPO\\Pages\\Visit.xaml.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAkwCwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -316,11 +404,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "7_TRPO\\Pages\\LoginPage.xaml.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Pages\\LoginPage.xaml.cs",
               "RelativeToolTip": "7_TRPO\\Pages\\LoginPage.xaml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAwwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -328,11 +416,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "7_TRPO\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\MainWindow.xaml.cs",
               "RelativeToolTip": "7_TRPO\\MainWindow.xaml.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAAwIkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -340,23 +428,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Patient_NEW.xaml.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Patient_NEW.xaml.cs",
-              "RelativeDocumentMoniker": "7_TRPO\\Pages\\Patient_NEW.xaml.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Patient_NEW.xaml.cs",
-              "RelativeToolTip": "7_TRPO\\Pages\\Patient_NEW.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwDIAAACUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T15:04:20.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "ThemeHelper.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\ThemeHelper.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\ThemeHelper.cs",
               "RelativeDocumentMoniker": "7_TRPO\\ThemeHelper.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\ThemeHelper.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\ThemeHelper.cs",
               "RelativeToolTip": "7_TRPO\\ThemeHelper.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwDMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -364,11 +440,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "Doctor.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Doctor.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Doctor.cs",
               "RelativeDocumentMoniker": "7_TRPO\\Doctor.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Doctor.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\Doctor.cs",
               "RelativeToolTip": "7_TRPO\\Doctor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -376,23 +452,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Patient_Edit.xaml.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Patient_Edit.xaml.cs",
-              "RelativeDocumentMoniker": "7_TRPO\\Pages\\Patient_Edit.xaml.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\Pages\\Patient_Edit.xaml.cs",
-              "RelativeToolTip": "7_TRPO\\Pages\\Patient_Edit.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswCgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T16:50:35.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "C.cs",
-              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\C.cs",
+              "DocumentMoniker": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\C.cs",
               "RelativeDocumentMoniker": "7_TRPO\\C.cs",
-              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\TRPO_pr7\\7TRPO\\7_TRPO\\C.cs",
+              "ToolTip": "D:\\UCHEBNIE\\isomatov_h\\\u0418\u0425\u0421 trpo-sp\\TRPO\\7TRPO\\7_TRPO\\C.cs",
               "RelativeToolTip": "7_TRPO\\C.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

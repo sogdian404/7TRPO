@@ -3,6 +3,8 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:validators="clr-namespace:_7_TRPO.Validations"
+      
       xmlns:local="clr-namespace:_7_TRPO.Pages"
       mc:Ignorable="d" 
       
@@ -11,8 +13,22 @@
     <StackPanel>
         <TextBlock Text="Идентификатор:"/>
         <TextBox x:Name="D_SignId"/>
+        <ItemsControl ItemsSource="{Binding ElementName=D_SignId, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
         <TextBlock Text="Пароль:"/>
         <PasswordBox x:Name="D_SignPass"/>
+        <ItemsControl ItemsSource="{Binding ElementName=D_SignPass, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
         <Button Style="{StaticResource Standart}" Content="Войти" Click="Login_Click"></Button>
         <Button Style="{StaticResource Standart}" Content="Зарегистрироваться" Click="Register_Click"></Button>
 

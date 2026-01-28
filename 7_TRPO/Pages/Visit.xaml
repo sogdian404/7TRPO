@@ -4,6 +4,8 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:_7_TRPO.Pages"
+            xmlns:validators="clr-namespace:_7_TRPO.Validations"
+
       mc:Ignorable="d"
       d:DesignWidth="800"
       Title="Visit">
@@ -73,12 +75,47 @@
                 <TextBlock Text="{Binding LastDoctorName}" />
             </WrapPanel>
             <WrapPanel Style="{StaticResource WP}">
-                <TextBlock Text="Диагноз:" />
-                <TextBox Width="240" Text="{Binding Diagnosis}" />
+                <Label Content="Диагноз:"/>
+
+                <TextBox x:Name="DiagnosisTextBox">
+                    <TextBox.Text>
+                        <Binding Path="Diagnosis" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:Empty/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+
+                <ItemsControl ItemsSource="{Binding ElementName=DiagnosisTextBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
             </WrapPanel>
             <WrapPanel Style="{StaticResource WP}">
-                <TextBlock Text="Рекомендации:" />
-                <TextBox Height="50" Width="240" Text="{Binding Recomendation}" />
+                <Label Content="Рекомендации:"/>
+
+                <TextBox x:Name="RecommendationsTextBox">
+                    <TextBox.Text>
+                        <Binding Path="Recomendation" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:Empty/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+
+                <ItemsControl ItemsSource="{Binding ElementName=RecommendationsTextBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
             </WrapPanel>
             <WrapPanel Style="{StaticResource WP_H}">
                 <Button Style="{StaticResource AddBtn}" Click="SaveNewData" />

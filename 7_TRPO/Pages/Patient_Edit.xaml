@@ -4,21 +4,90 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:_7_TRPO.Pages"
+            xmlns:validators="clr-namespace:_7_TRPO.Validations"
+
       mc:Ignorable="d" 
       d:DesignWidth="300"
       Title="Изменить пациента">
 
     <StackPanel>
-        <TextBlock Text="Фамилия:"/>
-        <TextBox Text="{Binding LastName}"/>
-        <TextBlock Text="Имя:"/>
-        <TextBox Text="{Binding Name}"/>
-        <TextBlock Text="Отчество:"/>
-        <TextBox Text="{Binding MiddleName}"/>
-        <TextBlock Text="Телефон:"/>
-        <TextBox Text="{Binding PhoneNumber}"/>
-        <TextBlock Text="Дата рождения:"/>
-        <DatePicker SelectedDate="{Binding Birthday}"/>
+        <Label Content="Фамилия:"/>
+        <TextBox x:Name="LastNameTextBox">
+            <TextBox.Text>
+                <Binding Path="LastName" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validators:Empty/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <ItemsControl ItemsSource="{Binding ElementName=LastNameTextBox, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <Label Content="Имя:"/>
+        <TextBox x:Name="NameTextBox">
+            <TextBox.Text>
+                <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validators:Empty/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <ItemsControl ItemsSource="{Binding ElementName=NameTextBox, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <Label Content="Отчество:"/>
+        <TextBox x:Name="MiddleNameTextBox">
+            <TextBox.Text>
+                <Binding Path="MiddleName" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validators:Empty/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <ItemsControl ItemsSource="{Binding ElementName=MiddleNameTextBox, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <Label Content="Дата рождения:"/>
+        <DatePicker x:Name="BirthdayDatePicker" SelectedDate="{Binding Birthday, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock x:Name="DateErrorTextBlock" Style="{StaticResource error}"/>
+
+        <Label Content="Телефон:"/>
+        <TextBox x:Name="PhoneTextBox">
+            <TextBox.Text>
+                <Binding Path="PhoneNumber" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validators:Empty/>
+                        <validators:PhoneNumberValidation/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <ItemsControl ItemsSource="{Binding ElementName=PhoneTextBox, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Style="{StaticResource error}" Text="{Binding ErrorContent}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
         <StackPanel Style="{StaticResource SP}">
             <Button Style="{StaticResource Standart}" Content="Сохранить" Click="Save_Click" />
             <Button Style="{StaticResource DelBtn}" Content="Отмена" Click="Cancel_Click"/>
